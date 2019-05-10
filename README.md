@@ -1,6 +1,6 @@
 # StrutsSpringExample
 
-## Dependency Version
+## Dependencies Version
 
 - JDK: 7/8
 - tomcat: 7.0.94
