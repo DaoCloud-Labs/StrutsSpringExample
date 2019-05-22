@@ -14,6 +14,14 @@
             <url>http://download.java.net/maven/2/</url>
         </repository>
 
+        <repository>
+            <id>labs-snapshots</id>
+            <url>http://yann:dangerous@nexus.mschina.io/nexus/content/repositories/labs-snapshot/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+
         <!--<repository>
             <id>JBoss repository</id>
             <url>http://repository.jboss.com/maven2/</url>
@@ -145,7 +153,11 @@
             <version>2.7.7</version>
         </dependency>
         <!-- Hibernate query library dependecy end -->
-
+        <dependency>
+            <groupId>io.daocloud.mircoservice</groupId>
+            <artifactId>collector-client-spring</artifactId>
+            <version>2.0.2-SNAPSHOT</version>
+        </dependency>
     </dependencies>
     <build>
         <finalName>StrutsExample</finalName>
