@@ -9,8 +9,6 @@ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
  
 	<!-- Beans Declaration -->
 	<import resource="com/mkyong/customer/spring/CustomerBean.xml"/>
-	
-	<import resource="config/database/spring/DataSource.xml"/>
 
-	<import resource="config/database/spring/ms_collector.xml"/>
+	<import resource="ms_collector.xml"/>
 </beans>
