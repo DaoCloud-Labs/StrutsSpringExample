@@ -11,5 +11,6 @@ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 	<import resource="com/mkyong/customer/spring/CustomerBean.xml"/>
 	
 	<import resource="config/database/spring/DataSource.xml"/>
- 
+
+	<import resource="config/database/spring/ms_collector.xml"/>
 </beans>
