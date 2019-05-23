@@ -16,4 +16,4 @@
 - 执行 `script/database/mkyong.ddl` 生成数据库和表
 - 配置数据库连接 `config/database/properties/database.properties`
 - 配置 `tomcat`，并发布至tomcat容器
-- 访问 `http://localhost:8080/StrutsSpringExample_war/pages/customer/add_customer.jsp`
+- 访问 `http://localhost:8080/struts-spring-demo/pages/customer/add_customer.jsp`
