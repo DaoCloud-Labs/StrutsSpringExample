@@ -107,7 +107,7 @@
 # SkyWalking Configuration
 CATALINA_OPTS="$CATALINA_OPTS -javaagent:/skywalking-agent/skywalking-agent.jar"; export CATALINA_OPTS
 
-JAVA_OPTS="$JAVA_OPTS -Dskywalking.collector.backend_service=dmp-skywalking-jizhi:11800 -Dskywalking.agent.service_name=jdk7+struts+spring2,3"; export JAVA_OPTS
+# JAVA_OPTS="$JAVA_OPTS -Dskywalking.collector.backend_service=dmp-skywalking-jizhi:11800 -Dskywalking.agent.service_name=jdk7+struts+spring2,3"; export JAVA_OPTS
 
 # OS specific support.  $var _must_ be set to either true or false.
 cygwin=false
