@@ -1,4 +1,4 @@
-FROM tomcat:7.0.94-jre7-alpine
+FROM tomcat:7.0.94-jre7
 
 ENV TZ="Asia/Shanghai" \
     AGENT_VERSION=2.0.1 \
